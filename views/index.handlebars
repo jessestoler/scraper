@@ -1,0 +1,44 @@
+<div class="banner">
+<h1>Welcome to the scraper!</h1>
+</div>
+
+<a href="/saved">Saved Articles</a>
+
+<div class="commentModal">
+    
+
+</div>
+<button class="closeComments">Close</button>
+
+<div class="note">
+    <h2>Write a note</h2>
+    <input class="notepad" type="text">
+    <button class="submitComment">Submit</button>
+    <div class="time">
+
+    </div>
+</div>
+
+
+
+<ul class="items">
+<div> {{#each article}}
+        
+      
+      
+      <li class="titles news">{{this.title}}</li>
+      <li class="news">{{this.summary}}</li>
+      <li class="links news"><a href="{{this.link}}">{{this.link}}</a></li>
+      
+      
+      <button class="save">Save Article</button>
+      
+
+  {{/each}}
+  </div> 
+</ul>
+
+
+
+
+

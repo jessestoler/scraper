@@ -1,0 +1,62 @@
+.banner {
+    text-align: center;
+}
+
+body {
+    background-color: pink;
+}
+
+button {
+    margin-bottom: 35px;
+}
+
+.closeComments {
+    display: none;
+    left: 475px;
+    position: fixed;
+    top: 350px;
+}
+
+.commentModal {
+    position: fixed;
+    height: 200px;
+    width: 300px;
+    top: 100px;
+    background-color: white;
+    left: 350px;
+    display: none;
+}
+
+.key {
+    display: none;
+}
+
+
+.news {
+    background-color: yellow;
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+.note {
+    width: 25%;
+    display: none;
+    right: 0px;
+    position: fixed;
+}
+
+
+.notepad {
+    margin-top: 30px;
+    height: 250px;
+}
+
+.titles {
+    font-weight: bold;
+}
+
+
+
+
+
+
