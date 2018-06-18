@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  var time = moment().format('MMMM Do YYYY, h:mm a');
+ 
   var thisId;
   var secondId;
   var thirdId;
@@ -9,7 +9,7 @@ $(document).ready(function(){
   var title;
   var saveThis = [];
 
-  $(".time").html(time);
+  
   $(".save").on("click", saveArticle);
   $(".write").on("click", notepad);
 
@@ -109,7 +109,7 @@ function notepad() {
 thisId = $(this).prev().html();
 
 $(".note").css("display", "block");
-$(".items").css("width", "75%");
+$(".items").css("width", "55%");
 
 }
 
